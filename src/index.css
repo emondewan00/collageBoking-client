@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .my-btn {
+    @apply border bg-white font-semibold  text-lg col-span-1 py-2 rounded flex items-center justify-center ease-linear delay-300 duration-700 hover:shadow-xl  transition-all hover:shadow-pink-300  hover:bg-gray-800 hover:text-white shadow-lg;
+  }
+  .my-input {
+    @apply form-control  w-full outline-none p-3 text-lg ring ring-purple-500 my-3 ring-offset-1 rounded-sm shadow-xl shadow-purple-200;
+  }
+  .card-hover {
+    @apply hover:shadow-2xl hover:shadow-purple-300 transition-all delay-200;
+  }
+}
